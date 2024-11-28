@@ -15,9 +15,9 @@ DigitalGalaxy is an online store for selling electronic products such as:
 Follow these steps to set up and run the project:
 
 1. **Clone the repository:**
-   Create a folder and open the terminal ,use Git to clone the repository to your local machine: git clone git clone https://github.com/MarinaPanchenko12345/Final-Project
+   Create a folder and open the terminal ,use Git to clone the repository to your local machine: git clone git clone https://github.com/MarinaPanchenko12345/FinalProject
 
-   Alternatively, you can download the repository as a ZIP file directly from GitHub: git clone https://github.com/MarinaPanchenko12345/Final-Project
+   Alternatively, you can download the repository as a ZIP file directly from GitHub: git clone https://github.com/MarinaPanchenko12345/FinalProject
    On the repository's GitHub page, click the Code button, then select Download ZIP.
    After downloading, extract the ZIP file to your local machine.
 
