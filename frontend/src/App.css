@@ -1,0 +1,56 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 200px;
+  font-weight: bold;
+}
+.message_error {
+  color: red;
+}
+.message_empty {
+  color: #6c757d;
+}
+.card_form_container,.user_form_container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+@media (max-width: 600px) {
+  .card_form_container {
+    width: 350px;
+  }
+}
+.home_div{
+  position: relative;
+  min-height: 100vh;
+}

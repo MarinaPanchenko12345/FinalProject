@@ -1,0 +1,76 @@
+.color_div {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.color_div::-webkit-scrollbar {
+  display: none;
+}
+.color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+  flex-shrink: 0;
+}
+.color_image_wrapper,.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 5px;
+  transition: transform 0.2s;
+}
+.color-circle {
+ border: 2px solid silver;
+}
+.color-circle:hover ,.color_image_wrapper:hover{
+  transform: scale(1.1);
+}
+.color-circle.red {
+  background-color: red;
+}
+.color-circle.green {
+  background-color: green;
+}
+.color-circle.blue {
+  background-color: blue;
+}
+.color-circle.black {
+  background-color: black;
+}
+.color-circle.white {
+  background-color: white;
+}
+.color-circle.yellow {
+  background-color: yellow;
+}
+.color-circle.orange {
+  background-color: orange;
+}
+.color-circle.purple {
+  background-color: purple;
+}
+.color-circle.pink {
+  background-color: pink;
+}
+.color-circle.metallic {
+  background-color: #c0c0c0;
+}
+.color span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7c7c7c;
+}
+.color-circle.selected {
+  border: 3px solid#1ebcff;
+}
+@media (min-width: 820px) {
+  .color_div {
+    justify-content: center;
+  }
+}

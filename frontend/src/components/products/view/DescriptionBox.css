@@ -1,0 +1,23 @@
+.descriptionbox {
+  margin-top: 20px;
+}
+.descriptionbox-navigator {
+  display: flex;
+}
+.descriptionbox-nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 171px;
+  height: 70px;
+  border: 1px solid #d0d0d0;
+}
+.descriptionbox-description {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-bottom: 70px;
+  border: 1px solid #d0d0d0;
+}

@@ -1,0 +1,43 @@
+.div_about h1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.container_about{
+  width: 95%;
+  margin: 10px auto;
+}
+.container_about_one,.container_about_two{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+.about_header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 2px 2px 6px 0px rgba(203, 219, 250, 0.6);
+}
+.logo_about{
+width: 100px;
+margin-right: 10px;
+ box-shadow: 2px 2px 6px 0px rgba(203, 219, 250, 0.6);
+}
+.about_store,.about_users,.about_functions,.about_auth{
+ box-shadow: 2px 2px 6px 0px rgba(203, 219, 250, 0.6);
+  width:500px;
+   margin-bottom: 25px;
+}
+.about_store ul li{
+ margin-bottom: 10px;
+ font-weight: bold;
+}
+.about_text{
+  padding: 10px 40px;
+}
+.div_about p{
+  margin-bottom: 10px;
+}
+.div_about ul{
+margin-bottom: 10px;  
+}

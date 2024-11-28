@@ -1,0 +1,33 @@
+.view_user {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.view_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.view_block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+.view_user_image,
+.view_user_info {
+  width: 350px;
+  padding: 20px;
+}
+.view_user_image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  max-width: 100%;
+}
+.view_user_info {
+  width: 350px;
+
+}
+.view_user_info p {
+  line-height: 2;
+}
