@@ -32,7 +32,7 @@ router.get(
   "/auth/google/callback",
   passport.authenticate("google", { failureRedirect: "/auth/failure" }),
   (req, res) => {
-    const token = req.user.token; // Полученный токен
+    const token = req.user.token; // Received token
     console.log("Generated JWT token:", token);
     res.redirect(`http://localhost:3000/auth-success?token=${token}`);
   }
@@ -42,11 +42,11 @@ router.get(
 router.post("/logout", (req, res) => {
   req.session.destroy((err) => {
     if (err) {
-      console.error("Ошибка при уничтожении сессии:", err);
-      return res.status(500).send("Ошибка при выходе");
+      console.error("Error destroying session:", err);
+      return res.status(500).send("Error while exiting");
     }
     res.clearCookie("connect.sid");
-    res.status(200).send("Вы успешно вышли из системы");
+    res.status(200).send("You have successfully logged out.");
   });
 });
 

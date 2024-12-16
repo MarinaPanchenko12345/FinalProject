@@ -9,7 +9,7 @@ export const generateToken = (user) => {
       isAdmin: user.isAdmin,
     },
     process.env.JWT_SECRET,
-    { expiresIn: "1h" } // Token expiration time (1 hour)
+    { expiresIn: "4h" } // Token expiration time (4 hour)
   );
   return token;
 };

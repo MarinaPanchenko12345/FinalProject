@@ -42,6 +42,7 @@
     "@types/morgan": "^1.9.9",
     "@types/passport": "^1.0.16",
     "@types/passport-google-oauth20": "^2.0.16",
-    "@types/seedrandom": "^3.0.8"
+    "@types/seedrandom": "^3.0.8",
+    "nodemon": "^3.1.9"
   }
 }

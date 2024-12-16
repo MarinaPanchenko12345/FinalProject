@@ -131,6 +131,7 @@ const CreateNewPassword = () => {
               onChange={handlePasswordChange}
               error={!!errorMessages.password}
               helperText={errorMessages.password}
+              autoComplete='new-password'
               slotProps={{
                 input: {
                   endAdornment: (

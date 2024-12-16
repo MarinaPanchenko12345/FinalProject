@@ -31,5 +31,6 @@ app.use((err, req, res, next) => {
   handleError(res, 500, err.message);
 });
 app.listen(process.env.PORT || 3000, async () => {
-  console.log(chalk.blue.bold("listening on port 9898"));
+  const port = process.env.PORT || 3000;
+  console.log(chalk.blue.bold(`listening on port ${port}`));
 });

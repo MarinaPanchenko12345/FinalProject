@@ -174,7 +174,7 @@ const Login = () => {
               margin='normal'
               required
               fullWidth
-              id='email'
+              id='login-email'
               label='Email Address'
               name='email'
               autoComplete='email'

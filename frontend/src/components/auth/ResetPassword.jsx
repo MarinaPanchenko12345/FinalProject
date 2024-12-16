@@ -79,7 +79,7 @@ const ResetPassword = () => {
               margin='normal'
               required
               fullWidth
-              id='email'
+              id='reset-email'
               label='Email Address'
               name='email'
               autoComplete='email'
