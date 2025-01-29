@@ -90,7 +90,7 @@ This is the frontend for the DigitalGalaxy project, an e-commerce platform for s
 - **State Management:**
   - `react-redux`, `@reduxjs/toolkit`
 - **Styling:**
-  - `@mui/material`, `@mui/icons-material`, `@emotion/react`, `sass`
+  - `@mui/material`, `@mui/icons-material`, `@emotion/react`
 - **HTTP Requests:**
   - `axios`
 - **Carousel:**
