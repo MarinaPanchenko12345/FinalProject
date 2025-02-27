@@ -21,25 +21,47 @@ Follow these steps to set up and run the project:
    On the repository's GitHub page, click the Code button, then select Download ZIP.
    After downloading, extract the ZIP file to your local machine.
 
-2. **Add the folder .env**
-   Add the .env file to folder backend, I provided separately and include the environment variables. Use NODE_ENV="development" for the local MongoDB Compass database or NODE_ENV="production" for connecting to MongoDB Atlas.
+2. **Create a `.env` in the `backend` directory:**
+   Use the .env.example file as a template and add the required environment variables to your .env file.
+   `##Enviroment##
+   NODE_ENV="development"
+   PORT=9898
+
+   ##Mongo##
+   ATLAS_DB_URL="mongodb+srv://your-username:your-password@clusternodejs.x8ooh.mongodb.net/project-node-js?retryWrites=true& w=majority&appName=ClusterNodeJs"
+   MONGO_DB_URL="mongodb://127.0.0.1:27017/project-node-js"
+
+   ##Authentication##
+   JWT_SECRET="your-jwt-secret"
+   GOOGLE_CLIENT_ID="your-google-client-id"
+   GOOGLE_CLIENT_SECRET="your-google-client-secret"
+
+   ##Session##
+   SESSION_SECRET="your-session-secret"
+
+   ##Email##
+   EMAIL_USER="your-email-user"
+   EMAIL_PASSWORD="your-email-password"`
+
+   Use`NODE_ENV="development"`for the local MongoDB Compass database or`NODE_ENV="production"`for connecting to MongoDB Atlas.
+
 3. **Install dependencies:**
-   Install all the necessary dependencies in folder backend and frontend using npm : npm install
-   This command will download all the required Node and React modules based.
+   Install all the necessary dependencies in folder backend and frontend using npm :`npm install` This command will download all the required Node and React modules based.
 4. **npm start**
-   Once the installation is complete, start the project in the terminal with: `npm start`
-   - folder backend:
-     Runs the app with Node.js.
-     Requires a MongoDB Atlas Cluster and MongoDB Compass for database management.
-     Uses nodemon to automatically restart the app when edits are made.
-     The page will reload if you make edits.
-     The terminal will print messages:
-     Blue: "listening on port 9898".
-     Yellow: "Connected to Local database" (if there are no login errors).
-   - folder frontend:
-     Runs the React application.
-     Automatically opens the default browser to load the homepage.
-     If edits are made to the frontend code, the page will reload automatically.
+   Once the installation is complete, start the project in the terminal with:`npm start`
+
+- folder backend:
+  Runs the app with Node.js.
+  Requires a MongoDB Atlas Cluster and MongoDB Compass for database management.
+  Uses nodemon to automatically restart the app when edits are made.
+  The page will reload if you make edits.
+  The terminal will print messages:
+  Blue: "listening on port 9898".
+  Yellow: "Connected to Local database" (if there are no login errors).
+- folder frontend:
+  Runs the React application.
+  Automatically opens the default browser to load the homepage.
+  If edits are made to the frontend code, the page will reload automatically.
 
 ### Functionality
 
