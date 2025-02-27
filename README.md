@@ -23,7 +23,7 @@ Follow these steps to set up and run the project:
 
 2. **Create a `.env` in the `backend` directory:**
    Use the .env.example file as a template and add the required environment variables to your .env file.
-   `##Enviroment##
+   ```##Enviroment##
    NODE_ENV="development"
    PORT=9898
 
@@ -41,7 +41,7 @@ Follow these steps to set up and run the project:
 
    ##Email##
    EMAIL_USER="your-email-user"
-   EMAIL_PASSWORD="your-email-password"`
+   EMAIL_PASSWORD="your-email-password"```
 
    Use`NODE_ENV="development"`for the local MongoDB Compass database or`NODE_ENV="production"`for connecting to MongoDB Atlas.
 
