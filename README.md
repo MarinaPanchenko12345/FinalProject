@@ -23,7 +23,8 @@ Follow these steps to set up and run the project:
 
 2. **Create a `.env` in the `backend` directory:**
    Use the .env.example file as a template and add the required environment variables to your .env file.
-   ```##Enviroment##
+
+   ````##Enviroment##
    NODE_ENV="development"
    PORT=9898
 
@@ -42,12 +43,12 @@ Follow these steps to set up and run the project:
    ##Email##
    EMAIL_USER="your-email-user"
    EMAIL_PASSWORD="your-email-password"```
+   ````
 
-   Use`NODE_ENV="development"`for the local MongoDB Compass database or`NODE_ENV="production"`for connecting to MongoDB Atlas.
+   **Use`NODE_ENV="development"`for the local MongoDB Compass database or`NODE_ENV="production"`for connecting to MongoDB Atlas.**
 
 3. **Install dependencies:**
-   Install all the necessary dependencies in folder backend and frontend using npm :`npm install` This command will download all the required Node and React modules based.
-4. **npm start**
+   Install all the necessary dependencies in folder backend and frontend using npm :`npm install` This command will download all the required Node and React modules based. 4. **npm start**
    Once the installation is complete, start the project in the terminal with:`npm start`
 
 - folder backend:
