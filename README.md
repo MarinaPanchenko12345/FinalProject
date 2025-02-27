@@ -48,21 +48,22 @@ Follow these steps to set up and run the project:
    **Use`NODE_ENV="development"`for the local MongoDB Compass database or`NODE_ENV="production"`for connecting to MongoDB Atlas.**
 
 3. **Install dependencies:**
-   Install all the necessary dependencies in folder backend and frontend using npm :`npm install` This command will download all the required Node and React modules based. 4. **npm start**
+   Install all the necessary dependencies in folder backend and frontend using npm :`npm install` This command will download all the required Node and React modules based.
+4. **npm start**
    Once the installation is complete, start the project in the terminal with:`npm start`
 
-- folder backend:
-  Runs the app with Node.js.
-  Requires a MongoDB Atlas Cluster and MongoDB Compass for database management.
-  Uses nodemon to automatically restart the app when edits are made.
-  The page will reload if you make edits.
-  The terminal will print messages:
-  Blue: "listening on port 9898".
-  Yellow: "Connected to Local database" (if there are no login errors).
-- folder frontend:
-  Runs the React application.
-  Automatically opens the default browser to load the homepage.
-  If edits are made to the frontend code, the page will reload automatically.
+- **folder backend:**
+  - Runs the app with Node.js.
+  - Requires a MongoDB Atlas Cluster and MongoDB Compass for database management.
+  - Uses nodemon to automatically restart the app when edits are made.
+  - The page will reload if you make edits.
+  - The terminal will print messages:
+  - Blue: "listening on port 9898".
+  - Yellow: "Connected to Local database" (if there are no login errors).
+- **folder frontend:**
+  - Runs the React application.
+  - Automatically opens the default browser to load the homepage.
+  - If edits are made to the frontend code, the page will reload automatically.
 
 ### Functionality
 
@@ -83,7 +84,7 @@ Follow these steps to set up and run the project:
   - Google login is supported via `passport-google-oauth20`.
   - Security features:
     - Users are blocked for 24 hours after 3 failed login attempts.
-    - Password reset functionality implemented using Nodemailer, requiring a valid email address to receive a reset link (15 minutes for change).
+    - Password reset functionality implemented using Nodemailer, requiring a **** `only valid email address`**** to receive a reset link (15 minutes for change).
   - Tokens for authenticated users are valid for 4 hours; after expiration, users are logged out automatically.
 - **User Roles and Cards Management :**
   - **Guest:** Can browse products and like them.
