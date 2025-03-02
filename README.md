@@ -42,10 +42,6 @@ Follow these steps to set up and run the project:
    ##Session##
    SESSION_SECRET="yoursecureandrandomstring0987654321!"
 
-   ## Email ##
-   EMAIL_USER="your-email-user"
-   EMAIL_PASSWORD="your-email-password"
-
    ##Email##
    EMAIL_USER="digitalgalaxy.project@gmail.com"
    EMAIL_PASSWORD="bngc ebxm ahqr gggd"```
