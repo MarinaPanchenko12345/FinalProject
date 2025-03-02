@@ -11,38 +11,44 @@ DigitalGalaxy is an online store for selling electronic products such as:
 - Headphones
 - Smartwatches
 
-**_Installation_**
+## Installation
+
 Follow these steps to set up and run the project:
 
 1. **Clone the repository:**
-   Create a folder and open the terminal ,use Git to clone the repository to your local machine: git clone git clone https://github.com/MarinaPanchenko12345/FinalProject
+   Create a folder and open the terminal ,use Git to clone the repository to your local machine: git clone git clone `https://github.com/MarinaPanchenko12345/FinalProject`
 
-   Alternatively, you can download the repository as a ZIP file directly from GitHub: git clone https://github.com/MarinaPanchenko12345/FinalProject
+   Alternatively, you can download the repository as a ZIP file directly from GitHub: git clone `https://github.com/MarinaPanchenko12345/FinalProject`
    On the repository's GitHub page, click the Code button, then select Download ZIP.
    After downloading, extract the ZIP file to your local machine.
 
 2. **Create a `.env` in the `backend` directory:**
-   Use the .env.example file as a template and add the required environment variables to your .env file.
+   Use the .env.test file as a template and add the required environment variables to your .env file.
+   If you need test credentials, feel free to contact me at `marishka100281@gmail.com.`
 
    ````##Enviroment##
    NODE_ENV="development"
    PORT=9898
 
    ##Mongo##
-   ATLAS_DB_URL="mongodb+srv://your-username:your-password@clusternodejs.x8ooh.mongodb.net/project-node-js?retryWrites=true& w=majority&appName=ClusterNodeJs"
-   MONGO_DB_URL="mongodb://127.0.0.1:27017/project-node-js"
+   ATLAS_DB_URL="mongodb+srv://your-username:your-password@your-cluster.mongodb.net/"
+   MONGO_DB_URL="mongodb://127.0.0.1:27017/digitalgalaxy"
 
    ##Authentication##
-   JWT_SECRET="your-jwt-secret"
-   GOOGLE_CLIENT_ID="your-google-client-id"
-   GOOGLE_CLIENT_SECRET="your-google-client-secret"
+   JWT_SECRET="ProjectNode3104578&%vvv%dd#2147"
+   GOOGLE_CLIENT_ID="your_google_client_id"
+   GOOGLE_CLIENT_SECRET="your_google_client_secret"
 
    ##Session##
-   SESSION_SECRET="your-session-secret"
+   SESSION_SECRET="yoursecureandrandomstring0987654321!"
+
+   ## Email ##
+   EMAIL_USER="your-email-user"
+   EMAIL_PASSWORD="your-email-password"
 
    ##Email##
-   EMAIL_USER="your-email-user"
-   EMAIL_PASSWORD="your-email-password"```
+   EMAIL_USER="digitalgalaxy.project@gmail.com"
+   EMAIL_PASSWORD="bngc ebxm ahqr gggd"```
    ````
 
    **Use`NODE_ENV="development"`for the local MongoDB Compass database or`NODE_ENV="production"`for connecting to MongoDB Atlas.**
@@ -65,7 +71,7 @@ Follow these steps to set up and run the project:
   - Automatically opens the default browser to load the homepage.
   - If edits are made to the frontend code, the page will reload automatically.
 
-### Functionality
+## Functionality
 
 - **Product Search and Filtering:**
   - Functional search to quickly find products.
@@ -77,14 +83,14 @@ Follow these steps to set up and run the project:
   - Each product card, including those in Fan Favorites, has a "View Product" option.
   - The "View Product" option displays all details about the product and allows users to add it to their cart.
 
-### User Management
+## User Management
 
 - **Registration and Login:**
   - Users can register and log in with an email and password.
   - Google login is supported via `passport-google-oauth20`.
   - Security features:
     - Users are blocked for 24 hours after 3 failed login attempts.
-    - Password reset functionality implemented using Nodemailer, requiring a **** `only valid email address`**** to receive a reset link (15 minutes for change).
+    - Password reset functionality implemented using Nodemailer, requiring a \***\* `only valid email address`\*\*** to receive a reset link (15 minutes for change).
   - Tokens for authenticated users are valid for 4 hours; after expiration, users are logged out automatically.
 - **User Roles and Cards Management :**
   - **Guest:** Can browse products and like them.
@@ -92,7 +98,7 @@ Follow these steps to set up and run the project:
   - **Business User:** Can purchase, create, update, delete, and restore their products. Receives notifications for low stock (if products < 3 ).
   - **Admin:** Has all the permissions of a business user and can manage other users, including viewing, deleting, and restoring them.
 
-### **Test Accounts**
+## Test Accounts
 
 To simplify the testing process, the following accounts are available:
 
@@ -102,7 +108,7 @@ To simplify the testing process, the following accounts are available:
 
 **Regular User Account:** -**Email:** `shira@gmail.com` - **Password:** `Aa123456!`
 
-### Additional Pages
+## Additional Pages
 
 - **Dashboard:**
 - Accessible to all registered users, offering role-specific options (includes Profile, All Users, User Products, User Orders).
@@ -116,14 +122,6 @@ For more detailed information on dependencies, folder structure, and additional 
 
 - [Backend README](./backend/README.md)
 - [Frontend README](./frontend/README.md)
-
-### Future Plans
-
-- **Image Uploading:** Implement image uploading functionality for users and cards using Multer for efficient file management.
-- **Order Management System:** Improve the order management system to allow:
-  - Card owners to see which of their products have been ordered.
-  - Card owners to update order statuses (e.g., "Pending", "In Transit", "Delivered").
-- **User Order Tracking:** Ensure that users who place orders can view real-time updates on the status of their orders.
 
 ### Author
 

@@ -1,5 +1,7 @@
-Frontend for DigitalGalaxy
-**_Description_**
+# Frontend for DigitalGalaxy
+
+## Description
+
 This is the frontend for the DigitalGalaxy project, an e-commerce platform for selling electronics. The frontend is built with React.js and communicates with the backend via REST APIs for features like user authentication, product management, shopping cart, and order placement.
 
 ## Features
@@ -65,7 +67,7 @@ This is the frontend for the DigitalGalaxy project, an e-commerce platform for s
   - Implementing search functionality (SearchContext).
   - Sorting by categories and colors (SortContext).
 
-### Project Structure
+## Project Structure
 
 - **frontend**
   - `public` # Static files

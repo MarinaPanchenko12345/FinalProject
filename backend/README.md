@@ -1,6 +1,7 @@
-Backend for FinalProject
+# Backend for FinalProject
 
-**_Description_**
+## Description
+
 NodeJsProject is a server-side application built with Node.js using Express.js and MongoDB/MongoDB Atlas for managing user and card data. The project implements user authentication, cards and users management,and uses JWT to secure routes and perform authorization. Additionally, it includes a shopping cart feature for managing products and supports user orders.
 
 ## Features
@@ -41,12 +42,12 @@ NodeJsProject is a server-side application built with Node.js using Express.js a
    Logs with status codes 400 and above are recorded in the logs folder with a file for each day.
 
 7. **API Documentation:**
-      A detailed description of all API endpoints is available in the Postman documentation. To use and test the requests via Postman, you can follow this link: https://documenter.getpostman.com/view/35946649/2sAYBXAqCp#d5beaffe-e5ef-4a02-a0ef-824b81c4eb5c
+   A detailed description of all API endpoints is available in the Postman documentation. To use and test the requests via Postman, you can follow this link: https://documenter.getpostman.com/view/35946649/2sAYBXAqCp#d5beaffe-e5ef-4a02-a0ef-824b81c4eb5c
 
    **Note:**
    The logs folder and log files are created automatically after the first error with a status code of 400 or above.
 
-   ### Data and Media Management
+   ## Data and Media Management
 
 - **Initial Data:**
   - Predefined database including products and users (with an admin account).
@@ -84,20 +85,20 @@ NodeJsProject is a server-side application built with Node.js using Express.js a
   - `fs` (File System) – For handling file uploads and file system operations.
   - `jwt-decode` – For decoding JWT tokens.
 
-### Project Structure
+## Project Structure
+
 - **backend**
-  - `handlers`      # Manages users, cards, cart, orders,authentication, and google authentication
-  - `helpers`       # Functions for connecting to the database (local or Atlas).
-  - `initial-data`  # Files with initial data (users and cards), and logic for initializing data in the database
-  - `middlewares`   # Handles CORS, authentication, logging, and error processing
-  - `public`        # Static files (images)
-  - `uploads`       # Folder with cards and users images for initial-data
-  - `routes`        # The main application router, combining routes for cards, users and Google Auth.
-  - `utils`         # General error handler for validation and server errors
-  - `server`        # Main file for starting the server
+  - `handlers` # Manages users, cards, cart, orders,authentication, and google authentication
+  - `helpers` # Functions for connecting to the database (local or Atlas).
+  - `initial-data` # Files with initial data (users and cards), and logic for initializing data in the database
+  - `middlewares` # Handles CORS, authentication, logging, and error processing
+  - `public` # Static files (images)
+  - `uploads` # Folder with cards and users images for initial-data
+  - `routes` # The main application router, combining routes for cards, users and Google Auth.
+  - `utils` # General error handler for validation and server errors
+  - `server` # Main file for starting the server
 
-
-### Server Setup
+## Server Setup
 
 Sets up and starts the server:
 
