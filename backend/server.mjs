@@ -29,7 +29,7 @@ handleError404(app);
 app.use((err, req, res, next) => {
   handleError(res, 500, err.message);
 });
-app.listen(process.env.PORT || 3000, async () => {
-  const port = process.env.PORT || 3000;
-  console.log(chalk.blue.bold(`listening on port ${port}`));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(chalk.blue.bold(`Server is running on port ${PORT}`));
 });
