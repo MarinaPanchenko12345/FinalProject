@@ -1,40 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Header.css";
-import { useTheme } from "@mui/material/styles";
+import WatchIcon from "@mui/icons-material/Watch";
+import ComputerIcon from "@mui/icons-material/Computer";
+import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
+import HeadphonesIcon from "@mui/icons-material/Headphones";
+import DevicesIcon from "@mui/icons-material/Devices";
+import SmartToyIcon from "@mui/icons-material/SmartToy";
+import HeaderInfo from "./HeaderInfo";
 
 const Header = () => {
-  const theme = useTheme();
-  const style = {
-    backgroundColor: theme.palette.primary.main,
-    color: theme.palette.text.primary,
-  };
   return (
-    <div className='header_container' style={style}>
-      <img
-        src='./header.webp'
-        alt='Header Background'
-        loading='lazy'
-        className='header_image'
-      />
-      <div className='header_div'>
-        <div className='header_information'>
-          <h1>Digital Galaxy</h1>
-          <p>
-            Welcome to DigitalGalaxy – your destination for cutting-edge
-            technology! Explore our wide range of devices, from smartphones and
-            laptops to smartwatches and headphones. Discover the world of
-            electronics with us!
-          </p>
-        </div>
-
-        <div className='header_about'>
-          <p>Click to learn more about our website and its features!</p>
-          <Link to='/about'>
-            <button>About Us</button>
-          </Link>
-        </div>
+    <div className='header_container'>
+      <div className='floating_icons'>
+        <WatchIcon fontSize='small' className='icon icon1' />
+        <DevicesIcon fontSize='large' className='icon icon2' />
+        <SmartToyIcon fontSize='small' className='icon icon3' />
+        <ComputerIcon fontSize='large' className='icon icon4' />
+        <PhoneIphoneIcon fontSize='small' className='icon icon5' />
+        <HeadphonesIcon fontSize='large' className='icon icon6' />
+        <ComputerIcon fontSize='small' className='icon icon7' />
+        <SmartToyIcon fontSize='large' className='icon icon8' />
+        <PhoneIphoneIcon fontSize='small' className='icon icon9' />
+        <WatchIcon fontSize='large' className='icon icon10' />
+        <DevicesIcon fontSize='small' className='icon icon11' />
+        <HeadphonesIcon fontSize='large' className='icon icon12' />
       </div>
+      <HeaderInfo />
     </div>
   );
 };

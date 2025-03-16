@@ -1,0 +1,54 @@
+.header_div {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+  padding: 20px;
+}
+.header_information,
+.header_about {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.header_about {
+  justify-content: flex-end;
+  height: 100%;
+}
+.header_information h1 {
+  font-family: Audiowide, sans-serif;
+  color: #f9af01;
+}
+.header_information p,
+.header_about p {
+  color: white;
+  line-height: 2;
+}
+.header_about button {
+  background-color: #f9af01;
+  color: #010927;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.header_about button:hover {
+  background-color: #e6c200;
+  transform: scale(1.1);
+}
+@media (max-width: 898px) {
+  .header_information p,
+  .header_about p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 700px) {
+  .header_div {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

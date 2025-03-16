@@ -17,7 +17,6 @@ connectDB();
 export const app = express();
 
 app.use(express.json());
-app.use("/uploads", express.static("uploads"));
 app.use(express.static("public"));
 app.use(loggerConsole);
 app.use(loggerRequest);

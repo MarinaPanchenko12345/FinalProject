@@ -18,7 +18,7 @@ export const users = [
       houseNumber: "5",
     },
     image: {
-      url: "/uploads/users/admin.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824182/DG%20users/l8xlxibfsjkfmshpatdy.jpg",
       alt: "user image",
     },
   },
@@ -41,7 +41,7 @@ export const users = [
       houseNumber: "100",
     },
     image: {
-      url: "/uploads/users/business1.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824183/DG%20users/z20ks3ryknxouwthfjav.jpg",
       alt: "user image",
     },
   },
@@ -63,7 +63,7 @@ export const users = [
       houseNumber: "10",
     },
     image: {
-      url: "/uploads/users/business2.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824184/DG%20users/xowrw4gdfz9xw8hjlcmd.jpg",
       alt: "user image",
     },
   },
@@ -85,7 +85,7 @@ export const users = [
       houseNumber: "200",
     },
     image: {
-      url: "/uploads/users/business3.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824185/DG%20users/wdgkwxjya10kwgz2dvtx.jpg",
       alt: "user image",
     },
   },
@@ -107,7 +107,7 @@ export const users = [
       houseNumber: "50",
     },
     image: {
-      url: "/uploads/users/business4.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824186/DG%20users/q95swcxeeyzpnvxviuwb.jpg",
       alt: "user image",
     },
   },
@@ -153,7 +153,7 @@ export const users = [
       houseNumber: "7",
     },
     image: {
-      url: "/uploads/users/regular1.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824186/DG%20users/m3gczuwdx0kxzxlyqigo.jpg",
       alt: "user image",
     },
   },
@@ -175,7 +175,7 @@ export const users = [
       houseNumber: "30",
     },
     image: {
-      url: "/uploads/users/regular2.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824187/DG%20users/ivjuqoj0q0edmkxrf9ak.jpg",
       alt: "user image",
     },
   },
@@ -197,7 +197,7 @@ export const users = [
       houseNumber: "12",
     },
     image: {
-      url: "/uploads/users/regular3.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824188/DG%20users/xaywewuwh9o6mddaf2pj.jpg",
       alt: "user image",
     },
   },
@@ -219,7 +219,7 @@ export const users = [
       houseNumber: "80",
     },
     image: {
-      url: "/uploads/users/regular4.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824189/DG%20users/zacxhtfmqlysfwo9qrzp.jpg",
       alt: "user image",
     },
   },
@@ -241,7 +241,7 @@ export const users = [
       houseNumber: "3",
     },
     image: {
-      url: "/uploads/users/regular5.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824190/DG%20users/eqksr2akc98prolraw7s.jpg",
       alt: "user image",
     },
   },

@@ -6,7 +6,7 @@ export const cards = [
     subtitle: "IPhone Mockup",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-black.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824170/DG%20cards/hvs36edumqjtdnchhnql.jpg",
       alt: "card image",
     },
     color: "black",
@@ -35,7 +35,7 @@ export const cards = [
     subtitle: "IPhone Mockup",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-green.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824171/DG%20cards/h2miptuhk7datawimsfp.jpg",
       alt: "card image",
     },
     color: "green",
@@ -51,7 +51,7 @@ export const cards = [
     subtitle: "IPhone Mockup",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-metallic1.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824172/DG%20cards/dumycbdc3ukhau1kvcoh.jpg",
       alt: "card image",
     },
     color: "metallic",
@@ -67,7 +67,7 @@ export const cards = [
     subtitle: "IPhone Mockup",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-metallic.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824172/DG%20cards/cdu70gzvm7hbdwt9ydep.jpg",
       alt: "card image",
     },
     color: "metallic",
@@ -83,7 +83,7 @@ export const cards = [
     subtitle: "SmartPhone",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-orange2.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824173/DG%20cards/ik0bn1xszb8yen88u6of.jpg",
       alt: "card image",
     },
     color: "orange",
@@ -100,7 +100,7 @@ export const cards = [
     subtitle: "IPhone Mockup",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-purple.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824174/DG%20cards/owd1peuquvfw5kbx9wkn.jpg",
       alt: "card image",
     },
     color: "purple",
@@ -123,7 +123,7 @@ export const cards = [
     subtitle: "Samsung Galaxy S23 Ultra Mockup",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-red.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824175/DG%20cards/f10t80qxmlw610dcn6mk.jpg",
       alt: "card image",
     },
     color: "red",
@@ -152,7 +152,7 @@ export const cards = [
     subtitle: "Samsung Galaxy S23 Ultra Mockup",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-white.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824176/DG%20cards/rqprahihleebgo3t9hhe.jpg",
       alt: "card image",
     },
     color: "white",
@@ -168,7 +168,7 @@ export const cards = [
     subtitle: "IPhone Mockup",
     description: descriptions["phones"],
     image: {
-      url: "/uploads/cards/smartphon-yellow.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824177/DG%20cards/fc0vayjak9e3hgruk4af.jpg",
       alt: "card image",
     },
     color: "yellow",
@@ -198,7 +198,7 @@ export const cards = [
     subtitle: "Control Monitor",
     description: descriptions["monitors"],
     image: {
-      url: "/uploads/cards/monitor-black.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824162/DG%20cards/h5nk53g1liskiikdeblo.jpg",
       alt: "card image",
     },
     color: "black",
@@ -214,7 +214,7 @@ export const cards = [
     subtitle: "Control Monitor",
     description: descriptions["monitors"],
     image: {
-      url: "/uploads/cards/monitor-black2.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824163/DG%20cards/djg4jlksxsfnpw3e3grs.jpg",
       alt: "card image",
     },
     color: "black",
@@ -240,7 +240,7 @@ export const cards = [
     subtitle: "Control Monitor",
     description: descriptions["monitors"],
     image: {
-      url: "/uploads/cards/monitor-metallic.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824165/DG%20cards/amiwgyvdzufmwzarfcd8.jpg",
       alt: "card image",
     },
     color: "metallic",
@@ -257,7 +257,7 @@ export const cards = [
     subtitle: "Computer Mockup",
     description: descriptions["computers"],
     image: {
-      url: "/uploads/cards/computer-metallic.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824149/DG%20cards/a9vhwswr5iafhcbuk7uo.jpg",
       alt: "card image",
     },
     color: "metallic",
@@ -273,7 +273,7 @@ export const cards = [
     subtitle: "Computer Mockup",
     description: descriptions["computers"],
     image: {
-      url: "/uploads/cards/computer-white2.jpg",
+      url: " https://res.cloudinary.com/dog94dbmv/image/upload/v1741824149/DG%20cards/a5n9fco1p4blzumgray7.jpg",
       alt: "card image",
     },
     color: "white",
@@ -291,7 +291,7 @@ export const cards = [
     subtitle: "Laptop Mockup",
     description: descriptions["laptops"],
     image: {
-      url: "/uploads/cards/laptop-black.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824157/DG%20cards/qe4wvyees89mfutsry4c.jpg",
       alt: "card image",
     },
     color: "black",
@@ -308,7 +308,7 @@ export const cards = [
     subtitle: "Laptop Mockup",
     description: descriptions["laptops"],
     image: {
-      url: "/uploads/cards/laptop-metallic.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824158/DG%20cards/g8uq2stu4xsqs555vonl.jpg",
       alt: "card image",
     },
     color: "metallic",
@@ -325,7 +325,7 @@ export const cards = [
     subtitle: "Laptop Mockup",
     description: descriptions["laptops"],
     image: {
-      url: "/uploads/cards/laptop-metallic2.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824158/DG%20cards/gowbiv8xqetjroq08pvw.jpg",
       alt: "card image",
     },
     color: "metallic",
@@ -349,7 +349,7 @@ export const cards = [
     subtitle: "Apple Laptop Mockup",
     description: descriptions["laptops"],
     image: {
-      url: "/uploads/cards/laptop-pink.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824160/DG%20cards/mecxhnqj7mkpaqawuvef.jpg",
       alt: "card image",
     },
     color: "pink",
@@ -376,7 +376,7 @@ export const cards = [
     subtitle: "Apple Laptop Mockup",
     description: descriptions["laptops"],
     image: {
-      url: "/uploads/cards/laptop-red.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824160/DG%20cards/y2ktddccnupgotvvxk0g.jpg",
       alt: "card image",
     },
     color: "red",
@@ -405,7 +405,7 @@ export const cards = [
     subtitle: "Apple Laptop Mockup",
     description: descriptions["laptops"],
     image: {
-      url: "/uploads/cards/laptop-white.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824161/DG%20cards/j0stmsqnhs2pgwnck5ae.jpg",
       alt: "card image",
     },
     color: "white",
@@ -422,7 +422,7 @@ export const cards = [
     subtitle: "Computer-mouse USB  Mockup",
     description: descriptions["computerMice"],
     image: {
-      url: "/uploads/cards/mouse-black.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824166/DG%20cards/k3e31m7lap6nmdjchtck.jpg",
       alt: "card image",
     },
     color: "black",
@@ -443,7 +443,7 @@ export const cards = [
     subtitle: "Computer-mouse USB",
     description: descriptions["computerMice"],
     image: {
-      url: "/uploads/cards/mouse-blue.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824167/DG%20cards/wixzzbvvt5pnfwrjgugz.jpg",
       alt: "card image",
     },
     color: "blue",
@@ -470,7 +470,7 @@ export const cards = [
     subtitle: "Computer-mouse USB",
     description: descriptions["computerMice"],
     image: {
-      url: "/uploads/cards/mouse-purple.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824167/DG%20cards/oq3uorey2v8n3jwy2o0j.jpg",
       alt: "card image",
     },
     color: "purple",
@@ -486,7 +486,7 @@ export const cards = [
     subtitle: "USB orange",
     description: descriptions["computerMice"],
     image: {
-      url: "/uploads/cards/mouse-purple2.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824168/DG%20cards/cb30selrqgzvyv25leow.jpg",
       alt: "card image",
     },
     color: "purple",
@@ -502,7 +502,7 @@ export const cards = [
     subtitle: "USB orange",
     description: descriptions["computerMice"],
     image: {
-      url: "/uploads/cards/mouse-red.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824169/DG%20cards/ngy17oxmztehjqbt03tm.jpg",
       alt: "card image",
     },
     color: "red",
@@ -533,7 +533,7 @@ export const cards = [
     subtitle: "Keyboard USB",
     description: descriptions["keyboards"],
     image: {
-      url: "/uploads/cards/keyboard-black.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824154/DG%20cards/p93rnynukj513az2al2d.jpg",
       alt: "card image",
     },
     color: "black",
@@ -549,7 +549,7 @@ export const cards = [
     subtitle: "Keyboard USB",
     description: descriptions["keyboards"],
     image: {
-      url: "/uploads/cards/keyboard-metallic.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824155/DG%20cards/qzv97yeblijieiydkekb.jpg",
       alt: "card image",
     },
     color: "metallic",
@@ -565,7 +565,7 @@ export const cards = [
     subtitle: "Keyboard USB",
     description: descriptions["keyboards"],
     image: {
-      url: "/uploads/cards/keyboard-metallic2.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824156/DG%20cards/h4ubqfcwmhwpnlciccl5.jpg",
       alt: "card image",
     },
     color: "metallic",
@@ -594,7 +594,7 @@ export const cards = [
     subtitle: "Wireless earbuds Mockup",
     description: descriptions["headphones"],
     image: {
-      url: "/uploads/cards/headphones-black.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824150/DG%20cards/vlw3qrpc6yt62vdwzcvi.jpg",
       alt: "card image",
     },
     color: "black",
@@ -610,7 +610,7 @@ export const cards = [
     subtitle: "Airpods earbuds Mockup",
     description: descriptions["headphones"],
     image: {
-      url: "/uploads/cards/headphones-purple.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824151/DG%20cards/lbflocbtojhr6su3yu8x.jpg",
       alt: "card image",
     },
     color: "purple",
@@ -633,7 +633,7 @@ export const cards = [
     subtitle: "Airpods",
     description: descriptions["headphones"],
     image: {
-      url: "/uploads/cards/headphones-white.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824152/DG%20cards/ajfrfy2f1d0fpr9sg6bz.jpg",
       alt: "card image",
     },
     color: "white",
@@ -649,7 +649,7 @@ export const cards = [
     subtitle: "Airpods Mockup",
     description: descriptions["headphones"],
     image: {
-      url: "/uploads/cards/headphones-white2.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824153/DG%20cards/cn3indvf00a4abnsolne.jpg",
       alt: "card image",
     },
     color: "white",
@@ -666,7 +666,7 @@ export const cards = [
     subtitle: "Smart Watch Mockup",
     description: descriptions["smartwatches"],
     image: {
-      url: "/uploads/cards/smartWatch-black.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824178/DG%20cards/zsuseq3ax2frs4wkivsw.jpg",
       alt: "card image",
     },
     color: "black",
@@ -687,7 +687,7 @@ export const cards = [
     subtitle: "Galaxy Classic Mockup",
     description: descriptions["smartwatches"],
     image: {
-      url: "/uploads/cards/smartWatch-black3.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824179/DG%20cards/gqu4cptcftxmpwrldw9k.jpg",
       alt: "card image",
     },
     color: "black",
@@ -704,7 +704,7 @@ export const cards = [
     subtitle: "Apple Watch4 Classic",
     description: descriptions["smartwatches"],
     image: {
-      url: "/uploads/cards/smartWatch-black4.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824180/DG%20cards/imqyed394swzbcbgs7nu.jpg",
       alt: "card image",
     },
     color: "black",
@@ -731,7 +731,7 @@ export const cards = [
     subtitle: "Watch S1 Active",
     description: descriptions["smartwatches"],
     image: {
-      url: "/uploads/cards/smartWatch-white.jpg",
+      url: "https://res.cloudinary.com/dog94dbmv/image/upload/v1741824181/DG%20cards/d5dbjapd6d0lbfgokdrq.jpg",
       alt: "card image",
     },
     color: "white",
