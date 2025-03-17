@@ -10,7 +10,7 @@ DigitalGalaxy is an online store for selling electronic products such as:
 - Computer Mice
 - Headphones
 - Smartwatches
-
+📌** Demo Version:**https://digitalgalaxyrender-1.onrender.com
 ## Installation
 
 Follow these steps to set up and run the project:
